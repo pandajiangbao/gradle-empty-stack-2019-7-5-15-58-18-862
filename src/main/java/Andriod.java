@@ -8,7 +8,8 @@ public class Andriod extends Mobile {
 
     @Override
     public void call(String message){
-        if (message.length()>8) System.out.println("<"+this.getClass().getName()+"> Message cannot be sent");
+        String name = this.getClass().getName();
+        if (message.length()>8) System.out.println("<"+ name +"> Message cannot be sent");
         else System.out.println("<Andriod>Message : " + message);
     }
 }

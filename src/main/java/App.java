@@ -11,6 +11,6 @@ public class App {
         System.out.println(mobile);
         Preson preson = new Preson("panda",mobile);
         preson.getMobile().call("Hello world.Hello world.Hello world.");
-//        IphoneRobot iphoneRobot = new IphoneRobot(mobile);
+//        IphoneRobot iphoneRobot = new IphoneRobot(mobile);//Story 3
     }
 }
